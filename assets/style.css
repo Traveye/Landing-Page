@@ -11,8 +11,21 @@ header{
     top: 0;
 }
 
+.header {
+    color: #05386b;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 ul {
-    float: inline-start;
+    display: inline-block;
 }
 
 img {
@@ -20,6 +33,11 @@ img {
     margin-top: 150px;
 }
 
+h2 {
+    color: #05386b;
+}
+
 form{
     margin-top: 0px;
+    color: #edf5e1;
 }
