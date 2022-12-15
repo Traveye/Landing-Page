@@ -3,20 +3,27 @@
 }
 
 .main {
-    background-color: #8EE4AF;
+    background-color: #659dbd;
 }
 
 header{
     position: fixed;
     top: 0;
+    width: 100%;
+    margin-left: 0px;
+    background-color: #fbeec1;
+   
 }
 
 .header {
+
     color: #05386b;
 }
 
 .header nav ul {
     list-style-type: none;
+
+
 }
 
 .header nav ul li {
@@ -40,4 +47,11 @@ h2 {
 form{
     margin-top: 0px;
     color: #edf5e1;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #daad86;
 }
